@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mypage.css">
+
+    <title>Gamees</title>
+
+</head>
+
+
+<body id="mypage">
+
+    <ul>
+        <input type="checkbox" id="bt_menu" onclick="openNav()" />
+        <h1 class="center">Só mais uma página aleatória</h1>
+        <h2><label for="bt_menu">&#9776;</label></h2>
+
+
+        <h2>Escolha um tema</h2>
+        <button id="b1">Tema dia</button>
+        <button id="b2">Tema noite</button>
+
+        <input type='button' id="botao" value='Esse botão te da parabéns' />
+
+        </script>
+    </ul>
+
+
+
+    <h2 class='center'> JOGOS DESENHADOS A MÃO </h2>
+
+    <p class='borde'>
+
+
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="#">Home</a>
+                <a href="#">Lista de jogos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contatos</a>
+            </div>
+
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://http2.mlstatic.com/cuphead-xbox-one-online-D_NQ_NP_902143-MLB26946320205_032018-F.jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="https://images.gog.com/f4afd788040ae359f4c8f42108144750ec1a10d06c6ad04ee80ea7475d21a216_product_card_v2_mobile_slider_639.jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://steamcdn-a.akamaihd.net/steam/apps/256290/ss_d6c2e812f72dd9eae818a97eb0700428a3b11d46.1920x1080.jpg?t=1455813114"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <br>
+
+
+        <h2>Cuphead</h2>
+
+        <p>Cuphead um dos jogos mais dificeis segundo os que já tiveram a esperiêcia foi inteiramente desenhado
+            a
+            mão.</p>
+
+        <figure class="png">
+            <img src="https://img.elo7.com.br/product/zoom/1C9A4CC/poster-stranger-things-netflix-mike-tamanho-90x-0-cm-poster-cuphead.jpg"
+                alt="Trulli" style="width:100%">
+            <figcaption> Ilustração.</figcaption>
+        </figure>
+
+        <h5 class="center">Cadastre-se</h5>
+
+
+        <h6 class="center">
+            Email:
+            <input type="text" id="nome" />
+
+
+            Senha:
+            <input type="text" name="firstname" id="id" value="digite seu nome">
+            <input type="submit" value="Enviar">
+
+
+
+        </h6>
+
+        <h2 class='p2'>Jogos de preferência:</h2>
+
+        <br<br>
+            <ul>
+                <select name="jogos">
+                    <option value="RJ">Terror</option>
+                    <option value="SC">FPS</option>
+                    <option value="SP">RPG</option>
+                    <option value="SP">Aventura</option>
+                </select>
+            </ul>
+
+
+
+            <h2 class='p2'>Jogos frequentes:</h2>
+            <br<br>
+                <ul>
+                    <input name="Jogos" type="checkbox" value="LP2">Lolzinho<br>
+                    <input name="Jogos" type="checkbox" value="DW1">Fortnite<br>
+                    <input name="Jogos" type="checkbox" value="ES">COD<br>
+                    <input name="Jogos" type="checkbox" value="ES">TOOOOUDOS<br>
+                    <input name="Jogos" type="checkbox" value="ES">Nenhum não<br>
+                    </form>
+                </ul>
+
+                <h2 class='p2'>Consoles de preferência:</h2>
+
+                <br<br>
+                    <ul>
+                        <input name="consoles" type="radio" value="LP2">PS4<br>
+                        <input name="consoles" type="radio" value="DW1">XBOX<br>
+                        <input name="consoles" type="radio" value="ES">PC<br>
+                        </form>
+                    </ul>
+                    <br>
+
+
+                    <!--   video   -->
+
+
+                    <video width="400" controls>
+                        <source src="mov_bbb.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+
+                    </video>
+
+
+                    <a href="https://www.youtube.com/watch?v=NN-9SQXoi50" target="_blank">Video</a>
+
+
+
+
+                    <script type="text/javascript">
+                        document.getElementById("Gravar").onsubmit = function (event) {
+                            var nomeCampo = document.getElementById("id");
+                            if (nomeCampo.value != "") {
+                                alert("Gravado com sucesso");
+                                return false;
+                            }
+                        };
+
+                        <script type="text/javascript">
+                            document.getElementById("formulario").onsubmit = function (event) {
+                var nomeCampo = document.getElementById("nome");
+                if (nomeCampo.value == "") {
+                                alert("Campo obrigatório não preenchido");
+                    return false;
+                                    }
+                                    };
+                                     
+                                     
+                    </script>
+
+
+
+                    <br><br>
+
+                    <script type="text/javascript" src="mypage.js"></script>
+
+</body>
+
+</html>
